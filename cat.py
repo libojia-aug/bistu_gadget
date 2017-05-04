@@ -12,4 +12,4 @@ def cat(lineCount):
     finally:
         file_object_writed.close()
 
-cat(10000)
+cat(100000)
