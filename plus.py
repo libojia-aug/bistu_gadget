@@ -1,11 +1,11 @@
-def divide(num):
+def plus(num):
     file_object = open('data/'+'DANGLING_PAGE_PR','r')
     try:
     	file_object_writed = open('output/'+str(num)+'.txt', 'a')
         all_the_text = file_object.readlines()
         for x in xrange(0, len(all_the_text)):
             # print all_the_text[x]
-            line = long(all_the_text[x]) / num
+            line = long(all_the_text[x]) + num
             file_object_writed.write(str(line)+'\n')
         
         file_object_writed.close()
@@ -13,4 +13,4 @@ def divide(num):
     finally:
         file_object_writed.close()
 
-divide(100000000.0)
+plus(3333333.0)
