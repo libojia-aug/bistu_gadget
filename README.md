@@ -3,6 +3,8 @@ bistu_gadget
 
 python 小工具
 
+Data processing gadget based on Python
+
 copy.py
 ----
 文本文件多倍复制
